@@ -2,11 +2,10 @@
   "name": "@monorepo/utils",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "main": "./dist/index.js",
   "tsup": {
     "entry": [
-      "src/index.ts"
+      "./src/index.ts"
     ],
     "dts": true,
     "sourcemap": true,

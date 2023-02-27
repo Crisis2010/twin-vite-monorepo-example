@@ -1,0 +1,11 @@
+{
+    "extends": "../../tsconfig.utils.json",
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "composite": true,
+        "importHelpers": true,
+        "isolatedModules": true
+    },
+    "include": ["src/"],
+}
