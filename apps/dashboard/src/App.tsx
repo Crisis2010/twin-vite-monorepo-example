@@ -1,5 +1,9 @@
 import { useState } from 'react'
+
+// Uncomment next line and comment second after
+// import { Test } from "./utils";
 import { Test } from "./../../../libs/utils/src";
+
 import logo from './logo.svg'
 import './App.css'
 
