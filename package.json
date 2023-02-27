@@ -8,6 +8,7 @@
     "check": "concurrently \"npm:test:*\" \"npm:typecheck:*\" --kill-others-on-fail",
     "dev:utils": "npm run dev -w @monorepo/utils",
     "dev:dashboard": "npm run dev -w @monorepo/dashboard",
+    "build:dashboard": "npm run build -w @monorepo/dashboard",
     "test:utils": "npm run test -w @monorepo/utils",
     "test:dashboard": "npm run test -w @monorepo/dashboard",
     "typecheck:utils": "npm run typecheck -w @monorepo/utils",
