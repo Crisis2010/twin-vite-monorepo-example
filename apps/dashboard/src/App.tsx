@@ -2,10 +2,11 @@ import { useState } from 'react'
 
 // Uncomment next line and comment second after
 // import { Test } from "./utils";
-import { Test } from "./../../../libs/utils/src";
+// import { Test } from "./../../../libs/utils/src";
 
 import logo from './logo.svg'
 import './App.css'
+import {Test} from "@monorepo/utils";
 
 function App() {
   const [count, setCount] = useState(0)
